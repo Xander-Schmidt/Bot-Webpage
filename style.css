@@ -21,11 +21,8 @@ and (max-width: 990px)  {
 
     .mainBody {
         position: absolute;
-        width: 775px;
-        height: 1035px;
-        left: 30%;
-        top: 45px;
-
+        width: 100%;
+        height: 1115px;
 
         transform: translate(0%, 0%);
     }
@@ -38,7 +35,8 @@ and (max-width: 990px)  {
         position: absolute;
         width: 338px;
         height: 376px;
-        left: 177px;
+        left: 50%;
+        transform: translate(-50%, 0);
         top: 27px;
     }
 
@@ -78,8 +76,10 @@ and (max-width: 990px)  {
         position: absolute;
         width: 383px;
         height: 319px;
-        left: 157px;
         top: 450px;
+
+        left: 50%;
+        transform: translate(-50%, 0);
 
         font-family: "Montserrat";
         font-style: normal;
@@ -241,7 +241,7 @@ and (max-width: 990px)  {
 
         color: #FFFFFF;
 
-        transform: translate(-60%, 0%);
+        transform: translate(-50%, 0%);
     }
 
     .descriptionSect .backDrop{
