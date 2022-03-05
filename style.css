@@ -1,0 +1,550 @@
+/* Header */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+/* Body */
+
+
+body {
+    margin: 0;
+    background-color: #2C2F33;
+}
+
+@media (min-width: 0px)
+and (max-width: 990px)  {
+
+
+    /* Main Body */
+
+
+    .mainBody {
+        position: absolute;
+        width: 775px;
+        height: 1035px;
+        left: 58%;
+        top: 45px;
+
+
+        transform: translate(-50%, 0%);
+    }
+
+
+    /* Icon Sect */
+
+
+    .iconSect {
+        position: absolute;
+        width: 338px;
+        height: 376px;
+        left: 177px;
+        top: 27px;
+    }
+
+    .statusBox {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 230px;
+        top: 259px;
+
+        background: #FF8484;
+        border: 6px solid #2C2F33;
+        box-shadow: inset 0px 4px 7px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 42px;
+    }
+
+    .iconBox {
+        position: absolute;
+        width: 310px;
+        height: 310px;
+        left: 16px;
+        top: 40px;
+
+        box-shadow: 0px 0px 13px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 100%;
+    }
+
+
+    /* General Sect */
+
+
+    .generalSect {
+        position: absolute;
+        width: 383px;
+        height: 319px;
+        left: 157px;
+        top: 450px;
+
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+
+        color: #FFFFFF;
+    }
+
+    .generalSect .backDrop {
+        position: absolute;
+        width: 351px;
+        height: 274px;
+        left: 13px;
+        top: 34px;
+
+        background: #282B2F;
+        border-radius: 10px;
+    }
+
+    .generalSect .hookBar {
+        position: absolute;
+        width: 138px;
+        height: 21px;
+        left: 24px;
+        top: 23px;
+
+        background: #8873DC;
+        border-radius: 51px;
+    }
+
+    .generalSect .hookTitle {
+        position: relative;
+        width: 115px;
+        height: 17px;
+        left: 37px;
+        top: 5px;
+    }
+
+    .generalSect .nameTitle {
+        position: absolute;
+        width: 65px;
+        height: 36px;
+        left: 61px;
+        top: 57px;
+    }
+
+    .generalSect .nameClient {
+        position: absolute;
+        width: 98px;
+        height: 17px;
+        left: 145px;
+        top: 57px;
+    }
+
+    .generalSect .tagsTitle {
+        position: absolute;
+        width: 57px;
+        height: 36px;
+        left: 61px;
+        top: 93px;
+    }
+
+    .generalSect .tagsList {
+        position: absolute;
+        width: 184px;
+        height: 39px;
+        left: 145px;
+        top: 90px;
+    }
+
+    .generalSect .statusTitle {
+        position: absolute;
+        width: 67px;
+        height: 22px;
+        left: 61px;
+        top: 146px;
+    }
+
+    .generalSect .statusType {
+        position: absolute;
+        width: 66px;
+        height: 14px;
+        left: 145px;
+        top: 155px;
+
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .generalSect .statusIco {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        left: 197px;
+        top: 172px;
+
+        background: #FF8484;
+        border-radius: 42px;
+    }
+
+    .generalSect .inviteButton {
+        position: absolute;
+        width: 117px;
+        height: 32px;
+        left: 51px;
+        top: 254px;
+
+        background: #5865F2;
+        border-radius: 51px;
+        border: none;
+
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+
+        color: #FFFFFF;
+    }
+
+    .generalSect .supportButton {
+        position: absolute;
+        width: 117px;
+        height: 32px;
+        left: 215px;
+        top: 254px;
+
+        background: #5865F2;
+        border-radius: 51px;
+        border: none;
+
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+
+        color: #FFFFFF;
+    }
+
+
+    /* Description Sect */
+
+
+    .descriptionSect {
+        position: absolute;
+        width: 383px;
+        height: 308px;
+        left: 50%;
+        top: 808px;
+
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+
+        color: #FFFFFF;
+
+        transform: translate(-60%, 0%);
+    }
+
+    .descriptionSect .backDrop{
+        position: absolute;
+        width: 348px;
+        height: 233px;
+        left: 17px;
+        top: 41px;
+
+        background: #282B2F;
+        border-radius: 10px;
+    }
+
+    .descriptionSect .hookBar {
+        position: absolute;
+        width: 134px;
+        height: 25px;
+        left: 28px;
+        top: 31px;
+
+        background: #8873DC;
+        border-radius: 51px;
+    }
+
+    .descriptionSect .hookTitle {
+        position: absolute;
+        width: 115px;
+        height: 23px;
+        left: 43px;
+        top: 15px;
+    }
+
+    .descriptionSect .descriptionBody {
+        position: absolute;
+        width: 328px;
+        height: 202px;
+        left: 28px;
+        top: 47px;
+
+        font-size: 17px;
+        line-height: 20px;
+    }
+}
+
+@media (min-width: 990.1px)
+and (max-width: 9999px)  {
+
+
+    /* Main Body */
+
+
+    .mainBody {
+        position: absolute;
+        width: 775px;
+        height: 688px;
+        left: 45%;
+        top: 0;
+
+        transform: translate(-50%, 0%);
+    }
+
+
+    /* Icon Sect */
+
+
+    .iconSect {
+        position: absolute;
+        width: 338px;
+        height: 376px;
+        left: 75px;
+        top: 91px;
+    }
+
+    .statusBox {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 230px;
+        top: 259px;
+
+        background: #FF8484;
+        border: 6px solid #2C2F33;
+        box-shadow: inset 0px 4px 7px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 42px;
+    }
+
+    .iconBox {
+        position: absolute;
+        width: 310px;
+        height: 310px;
+        left: 16px;
+        top: 40px;
+
+        box-shadow: 0px 0px 13px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 100%;
+    }
+
+
+    /* General Sect */
+
+
+    .generalSect {
+        position: absolute;
+        width: 383px;
+        height: 319px;
+        left: 414px;
+        top: 133px;
+
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+
+        color: #FFFFFF;
+    }
+
+    .generalSect .backDrop {
+        position: absolute;
+        width: 351px;
+        height: 274px;
+        left: 13px;
+        top: 34px;
+
+        background: #282B2F;
+        border-radius: 10px;
+    }
+
+    .generalSect .hookBar {
+        position: absolute;
+        width: 138px;
+        height: 21px;
+        left: 24px;
+        top: 23px;
+
+        background: #8873DC;
+        border-radius: 51px;
+    }
+
+    .generalSect .hookTitle {
+        position: relative;
+        width: 115px;
+        height: 17px;
+        left: 37px;
+        top: 5px;
+    }
+
+    .generalSect .nameTitle {
+        position: absolute;
+        width: 65px;
+        height: 36px;
+        left: 61px;
+        top: 57px;
+    }
+
+    .generalSect .nameClient {
+        position: absolute;
+        width: 98px;
+        height: 17px;
+        left: 145px;
+        top: 57px;
+    }
+
+    .generalSect .tagsTitle {
+        position: absolute;
+        width: 57px;
+        height: 36px;
+        left: 61px;
+        top: 93px;
+    }
+
+    .generalSect .tagsList {
+        position: absolute;
+        width: 184px;
+        height: 39px;
+        left: 145px;
+        top: 90px;
+    }
+
+    .generalSect .statusTitle {
+        position: absolute;
+        width: 67px;
+        height: 22px;
+        left: 61px;
+        top: 146px;
+    }
+
+    .generalSect .statusType {
+        position: absolute;
+        width: 66px;
+        height: 14px;
+        left: 145px;
+        top: 155px;
+
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .generalSect .statusIco {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        left: 197px;
+        top: 172px;
+
+        background: #FF8484;
+        border-radius: 42px;
+    }
+
+    .generalSect .inviteButton {
+        position: absolute;
+        width: 117px;
+        height: 32px;
+        left: 51px;
+        top: 254px;
+
+        background: #5865F2;
+        border-radius: 51px;
+        border: none;
+
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+
+        color: #FFFFFF;
+    }
+
+    .generalSect .supportButton {
+        position: absolute;
+        width: 117px;
+        height: 32px;
+        left: 215px;
+        top: 254px;
+
+        background: #5865F2;
+        border-radius: 51px;
+        border: none;
+
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+
+        color: #FFFFFF;
+    }
+
+
+    /* Description Sect */
+
+
+    .descriptionSect {
+        position: absolute;
+        width: 729px;
+        height: 188px;
+        left: 68px;
+        top: 476px;
+
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+
+        color: #FFFFFF;
+    }
+
+    .descriptionSect .backDrop{
+        position: absolute;
+        width: 683px;
+        height: 136px;
+        left: 27px;
+        top: 37px;
+
+        background: #282B2F;
+        border-radius: 10px;
+    }
+
+    .descriptionSect .hookBar {
+        position: absolute;
+        width: 134px;
+        height: 25px;
+        left: 47px;
+        top: 29px;
+
+        background: #8873DC;
+        border-radius: 51px;
+    }
+
+    .descriptionSect .hookTitle {
+        position: absolute;
+        width: 115px;
+        height: 23px;
+        left: 59px;
+        top: 13px;
+    }
+
+    .descriptionSect .descriptionBody {
+        position: absolute;
+        width: 659px;
+        height: 138px;
+        left: 41px;
+        top: 47px;
+
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
