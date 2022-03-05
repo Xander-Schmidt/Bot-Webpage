@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <section class="mainBody">
+            <section class="iconSect">
+                <img class="iconBox" src="ico.png">
+                <div class="statusBox" id="boxMask"></div>
+            </section>
+
+            <section class="generalSect">
+                <div class="backDrop"></div>
+                <div class="hookBar"></div>
+                <p class="hookTitle">Information</p>
+                <p class="nameTitle">Name:</p>
+                <p class="nameClient">Amato</p>
+                <p class="tagsTitle">Tags:</p>
+                <p class="tagsList">Utility, Economy, Moderation, Other</p>
+                <p class="statusTitle">Status:</p>
+                <p class="statusType" id="status">Offline</p>
+                <div class="statusIco" id="icoMask"></div>
+                <button class="inviteButton" onclick="owin('index.html')">Invite</button>
+                <button class="supportButton" onclick="owin('index.html')">Support</button>
+            </section>
+
+            <section class="descriptionSect">
+                <div class="backDrop"></div>
+                <div class="hookBar"></div>
+                <p class="hookTitle">Description</p>
+                <p class="descriptionBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit ut aliquam purus sit amet. Risus feugiat in ante metus. Ut tellus elementum sagittis vitae et. Vulputate dignissim suspendisse in est ante in nibh mauris. Blandit libero volutpat sed cras ornare arcu dui.</p>
+            </section>
+        </section>
+    </body>
+
+    <script type="text/javascript">
+        var request = new XMLHttpRequest();
+
+        request.open('GET', 'https://discord.com/api/guilds/904613606333759550/widget.json', true);
+        request.onload = function() {
+            if (request.status >= 200 && request.status < 400) {
+                // Success!
+                var data = JSON.parse(request.responseText);
+                for (let x in data.members) {
+                    for (let y in data.members[x]) {
+                        if (y == "username") {
+                            for (let z in data.members[x][y]) {
+                                if (data.members[x][y] == "Deity") {
+                                    document.getElementById("status").innerHTML = "Online";
+                                    document.getElementById("boxMask").style.backgroundColor = "#84FF97";
+                                    document.getElementById("icoMask").style.backgroundColor = "#84FF97";
+                                }
+
+                                console.log(data.members[x][y]);
+                            }
+                        }
+                    }
+                }
+            }
+        };
+
+        request.send();
+
+        function owin(a) { window.location = a; }
+    </script>
+</html>
